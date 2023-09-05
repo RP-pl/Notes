@@ -1,0 +1,44 @@
+.number-component-icon{
+    -fx-background-color: #494949;
+    -fx-min-width: 15;
+    -fx-max-width: 15;
+    -fx-min-height: 15;
+    -fx-max-height: 15;
+    -fx-border-width: 10;
+    -fx-padding: 5;
+    -fx-content-display: graphic-only;
+}
+
+.icon-background{
+    -fx-background-color: #4682B4;
+    -fx-min-width: 20;
+    -fx-min-height: 30;
+    -fx-max-width: 20;
+    -fx-max-height: 30;
+    -fx-background-radius: 5 0 0 5;
+    -fx-border-radius: 5 0 0 5;
+    -fx-border-color: black;
+    -fx-border-width: 1 0 1 1;
+}
+
+.number-field-draw{
+    -fx-background-radius: 0 5 5 0;
+    -fx-border-radius: 0 5 5 0;
+}
+
+.width-icon{
+    -fx-shape: "M406.6 374.6l96-96c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224l-293.5 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288l293.5 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z";
+}
+
+.height-icon{
+    -fx-shape: "M182.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L128 109.3V402.7L86.6 361.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l96 96c12.5 12.5 32.8 12.5 45.3 0l96-96c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 402.7V109.3l41.4 41.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-96-96z";
+}
+
+.number-component{
+    -fx-border-width: 5;
+    -fx-border-color: transparent;
+}
+
+.number-component:hover .icon-background{
+    -fx-background-color: #87CEFB;
+}

@@ -1,0 +1,9 @@
+.icon{
+    -fx-background-color: #494949;
+    -fx-min-width: 15;
+    -fx-max-width: 15;
+    -fx-min-height: 15;
+    -fx-max-height: 15;
+    -fx-border-width: 10;
+    -fx-content-display: graphic-only;
+}

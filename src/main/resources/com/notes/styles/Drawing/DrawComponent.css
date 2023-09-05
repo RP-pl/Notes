@@ -1,0 +1,25 @@
+.draw-component{
+    -fx-vbar-policy: never;
+}
+
+.draw-component {
+    -fx-background-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-width: 3;
+
+}
+
+.draw-component .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.draw-component .content{
+    -fx-background-color: transparent;
+}
+
+.draw-component:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}

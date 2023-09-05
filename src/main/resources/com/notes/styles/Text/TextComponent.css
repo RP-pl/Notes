@@ -1,0 +1,21 @@
+.text-component .scroll-pane{
+    -fx-vbar-policy: never;
+}
+.text-component{
+    -fx-background-color: transparent;
+    -fx-control-inner-background:transparent;
+}
+
+.text-component .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-component .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-component .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+

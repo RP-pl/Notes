@@ -1,0 +1,18 @@
+.menu-bar{
+    -fx-background-color: #F1F1F1;
+}
+.menu:hover{
+    -fx-background-color: #87CEEB;
+}
+.menu:pressed{
+    -fx-background-color: #87CEEB;
+}
+.menu{
+    -fx-font-weight: bold;
+}
+.menu-item:hover{
+    -fx-background-color: #87CEEB;
+}
+.menu-item:pressed{
+    -fx-background-color: #BEDBED;
+}

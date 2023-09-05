@@ -1,0 +1,6 @@
+.drawing-layout{
+    -fx-alignment:center;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+}

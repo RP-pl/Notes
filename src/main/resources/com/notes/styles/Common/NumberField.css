@@ -1,0 +1,14 @@
+.number-field{
+    -fx-max-width: 40;
+    -fx-min-width: 40;
+    -fx-text-alignment: center;
+    -fx-border-color: #000000aa;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-font-weight: Bold;
+    -fx-background-color: transparent;
+    -fx-padding: 5;
+}
+.number-field:hover{
+    -fx-background-color: #0000001f;
+}

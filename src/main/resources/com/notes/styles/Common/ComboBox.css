@@ -1,0 +1,14 @@
+.combo-box{
+    -fx-min-width: 150;
+    -fx-background-color: transparent;
+    -fx-background-radius: 3;
+}
+
+.combo-box-base > .arrow-button {
+    -fx-background-color: transparent;
+}
+.combo-box-base > .text-field{
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}

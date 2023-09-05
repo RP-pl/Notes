@@ -1,0 +1,35 @@
+.color-picker {
+    -fx-font-size: 13;
+    -fx-background-color: #00000000;
+    -fx-padding: 2 2 2 2;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-border-width: 0;
+    -fx-background-insets: 0, 0, 0, 0;
+    -fx-border-color: #0000ff22;
+    -fx-color-label-visible: false ;
+}
+.color-picker:hover{
+    -fx-background-color: #00000016;
+    -fx-focus-color: #0000ff55;
+    -fx-border-color: #0000ff44;
+    -fx-faint-focus-color: #0000ff55;
+}
+.color-picker:showing{
+    -fx-background-color: #0000002f;
+    -fx-focus-color: #0000ff55;
+    -fx-border-color: #0000ff44;
+    -fx-faint-focus-color: #0000ff55;
+}
+
+.color-picker .arrow, .color-picker .arrow-button{
+    visibility: hidden;
+    -fx-max-width: 0;
+    -fx-max-height: 0;
+    -fx-padding: 0;
+}
+.color-picker  {
+    -fx-cursor: text;
+    -fx-min-width: 40;
+    -fx-min-height: 40;
+}

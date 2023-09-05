@@ -1,0 +1,7 @@
+.font-picker:hover{
+    -fx-background-color: #0000001f;
+}
+
+.font-picker{
+    -fx-padding: 5;
+}

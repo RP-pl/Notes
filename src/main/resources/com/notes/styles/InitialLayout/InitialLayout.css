@@ -1,0 +1,59 @@
+.initial-layout{
+    -fx-background-color: #FFFAFA;
+}
+
+.initial-layout .button-selector{
+    -fx-padding: 10;
+    -fx-border-width: 0;
+    -fx-border-color: #acacac33;
+    -fx-background-color: #00000000;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.icon{
+    -fx-background-color: #494949;
+    -fx-min-width: 40;
+    -fx-max-width: 40;
+    -fx-min-height: 40;
+    -fx-max-height: 40;
+    -fx-border-width: 20;
+    -fx-content-display: graphic-only;
+}
+
+.button-background{
+    -fx-background-color: #87CEEB;
+    -fx-min-width: 75;
+    -fx-max-width: 75;
+    -fx-min-height: 75;
+    -fx-max-height: 75;
+    -fx-border-width: 38;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+
+}
+
+.button-label{
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-min-width: 75;
+    -fx-max-width: 75;
+}
+
+.button-layout{
+    -fx-alignment: center;
+    -fx-background-color: transparent;
+}
+
+.spacer{
+    -fx-max-width: 25;
+    -fx-min-width: 25;
+}
+
+.button-background:hover {
+    -fx-background-color: #898989;
+}
+.button-background:hover .icon{
+    -fx-background-color: white;
+}

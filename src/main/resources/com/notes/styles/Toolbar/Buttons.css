@@ -1,0 +1,37 @@
+.button{
+    -fx-border-width: 0;
+    -fx-border-color: #acacac33;
+    -fx-background-color: #00000000;
+    -fx-padding: 5 20 5 20;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+.button:pressed .icon{
+    -fx-background-color: #494949;
+}
+
+.button:pressed{
+    -fx-background-color: #dcdcdc;
+    -fx-border-color: #dcdcdc;
+}
+.button:hover{
+    -fx-background-color: #dcdcdc;
+    -fx-border-color: #dcdcdc;
+}
+.close-button:hover{
+    -fx-background-color: #FF2222;
+    -fx-border-color: #FF2222;
+}
+.close-button:pressed{
+    -fx-background-color: #FA8072;
+    -fx-border-color: #FA8072;
+}
+.icon{
+    -fx-background-color: #494949;
+    -fx-min-width: 15;
+    -fx-max-width: 15;
+    -fx-min-height: 15;
+    -fx-max-height: 15;
+    -fx-border-width: 10;
+    -fx-content-display: graphic-only;
+}

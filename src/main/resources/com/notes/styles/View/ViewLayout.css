@@ -1,0 +1,30 @@
+.view-bar{
+    -fx-alignment: center;
+    -fx-background-color: #87CEEB;
+    -fx-padding: 5 15 5 15;
+    -fx-min-height: 50;
+}
+
+.view-layout{
+    -fx-background-color: transparent;
+}
+.region{
+    -fx-background-color: transparent;
+}
+.view-layout-scroll-pane{
+    -fx-background-color: transparent;
+}
+
+.view-layout-scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.view-layout-scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.view-layout-scroll-pane:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}

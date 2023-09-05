@@ -1,0 +1,13 @@
+.text-bar{
+    -fx-alignment: center;
+    -fx-background-color: #87CEEB;
+    -fx-padding: 5 15 5 15;
+    -fx-min-height: 50;
+}
+
+
+.text-bar{
+    -fx-alignment: center;
+    -fx-max-width: 200;
+}
+
