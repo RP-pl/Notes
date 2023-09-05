@@ -43,4 +43,4 @@ bin/
 
 /.idea
 /Icon.xcf
-gradle
+gradle/wrapper/gradle-wrapper.properties
