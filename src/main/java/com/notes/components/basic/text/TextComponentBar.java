@@ -57,7 +57,7 @@ public class TextComponentBar extends HBox {
         ModeSelectorLayout selector = new ModeSelectorLayout(NoteLayout.modeList);
 
         this.getChildren().addAll(bold,italic,separator3,picker,separator1,sizeField,separator2, colorPicker,spacer,selector);
-        FontChangeListener hanlder = new FontChangeListener<>(font,isBold,isItalic,size,fontColor, ta);
+        FontChangeListener<Object> hanlder = new FontChangeListener<>(font,isBold,isItalic,size,fontColor, ta);
         size.addListener(hanlder);
         fontColor.addListener(hanlder);
     }

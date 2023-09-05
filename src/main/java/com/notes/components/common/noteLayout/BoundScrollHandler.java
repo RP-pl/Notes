@@ -10,7 +10,6 @@ import javafx.scene.text.Text;
 public class BoundScrollHandler implements EventHandler<ScrollEvent> {
 
     private final ContentLayout layout;
-    public double lineHeight = 0;
     public BoundScrollHandler(ContentLayout layout){
         this.layout = layout;
     }

@@ -1,6 +1,4 @@
 package com.notes.components.common.handlers;
-
-import javafx.scene.paint.Color;
 public class FontProperties {
     public String fontColor;
     public int fontSize;
