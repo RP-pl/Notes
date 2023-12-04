@@ -23,11 +23,17 @@ targetCompatibility = '17'
 tasks.withType(JavaCompile) {
   options.encoding = 'UTF-8'
 }
+jlink {
+  launcher {
+    name = 'com.notes'
+  }
+}
 
 application {
   mainModule = 'com.notes'
   mainClass = 'com.notes.Main'
 }
+
 
 javafx {
   version = '17.0.6'

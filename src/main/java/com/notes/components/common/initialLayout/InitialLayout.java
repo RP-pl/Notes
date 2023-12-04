@@ -11,6 +11,8 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+import static com.notes.util.Resources.getResource;
+
 /**
  * This layout is used when there is no note open
  */
@@ -29,8 +31,8 @@ public class InitialLayout extends VBox {
 
         this.getChildren().addAll(t,createButtonLayout());
         this.getStyleClass().add("initial-layout");
-        this.getStylesheets().add("com/notes/styles/InitialLayout/InitialLayout.css");
-       this.getStylesheets().add("com/notes/styles/InitialLayout/Icons.css");
+        this.getStylesheets().add(getResource("/com/notes/styles/InitialLayout/InitialLayout.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/InitialLayout/Icons.css"));
     }
 
 

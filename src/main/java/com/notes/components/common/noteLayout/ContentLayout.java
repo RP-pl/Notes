@@ -8,6 +8,8 @@ import javafx.scene.layout.Region;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 
+import static com.notes.util.Resources.getResource;
+
 /**
  * Layout with all main components of a note
  */
@@ -22,7 +24,7 @@ public class ContentLayout extends StackPane {
     public ContentLayout(){
         super();
         this.minWidthProperty().set(750);
-        this.textLayout = new TextLayout();;
+        this.textLayout = new TextLayout();
         bindWidthProperties(textLayout);
 
 
@@ -36,7 +38,7 @@ public class ContentLayout extends StackPane {
         this.getChildren().addAll(backplate,viewLayout,drawingLayout,textLayout);
         ModeSelector.currentMode.addListener(new LayoutChangeListener(this));
         this.getStyleClass().add("complete-layout");
-        this.getStylesheets().add("com/notes/styles/CompleteLayout.css");
+        this.getStylesheets().add(getResource("/com/notes/styles/CompleteLayout.css"));
     }
 
     private void bindWidthProperties(Region node){

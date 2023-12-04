@@ -9,6 +9,8 @@ import javafx.scene.layout.Region;
 import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 
+import static com.notes.util.Resources.getResource;
+
 /**
  * Component used instead of default OS top bar
  */
@@ -31,9 +33,9 @@ public class Toolbar extends HBox {
         Region spacer2 = new Region();
         HBox.setHgrow(spacer2, Priority.ALWAYS);
         this.getChildren().addAll(spacer1,icon,titleField,spacer2,createMinimizeButton(),createFullscreenButton(),createCloseButton());
-        this.getStylesheets().add("com/notes/styles/Toolbar/Icon.css");
-        this.getStylesheets().add("com/notes/styles/Toolbar/Buttons.css");
-        this.getStylesheets().add("com/notes/styles/Toolbar/TitleField.css");
+        this.getStylesheets().add(getResource("/com/notes/styles/Toolbar/Icon.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Toolbar/Buttons.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Toolbar/TitleField.css"));
     }
 
     private Button createCloseButton(){

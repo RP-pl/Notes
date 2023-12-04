@@ -11,6 +11,8 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.layout.Region;
 import javafx.stage.Stage;
 
+import static com.notes.util.Resources.getResource;
+
 public class AppMenuBar extends MenuBar {
 
     private final ContentLayout content;
@@ -20,9 +22,9 @@ public class AppMenuBar extends MenuBar {
         super();
         this.content = content;
         this.stage = stage;
-        this.getStylesheets().add("com/notes/styles/Common/Icon.css");
-        this.getStylesheets().add("com/notes/styles/Menu/Icons.css");
-        this.getStylesheets().add("com/notes/styles/Menu/Bar.css");
+        this.getStylesheets().add(getResource("/com/notes/styles/Common/Icon.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Menu/Icons.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Menu/Bar.css"));
         this.getMenus().addAll(createProjectMenu(),createFileMenu());
     }
 

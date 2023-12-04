@@ -7,6 +7,9 @@ import javafx.geometry.Pos;
 import javafx.scene.control.ScrollBar;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
+
+import static com.notes.util.Resources.getResource;
+
 public class TextLayout extends VBox {
     public final TextComponentBar textComponentBar;
     public final TextComponent textComponent;
@@ -25,19 +28,19 @@ public class TextLayout extends VBox {
         background.setStyle("-fx-background-color: white");
         background.getChildren().add(textComponentBar);
         this.getChildren().addAll(background, textComponent);
-        this.getStylesheets().add("com/notes/styles/Text/TextComponent.css");
-        this.getStylesheets().add("com/notes/styles/Text/TextComponentBar.css");
-        this.getStylesheets().add("com/notes/styles/Text/Button.css");
-        this.getStylesheets().add("com/notes/styles/Common/ColorPicker.css");
-        this.getStylesheets().add("com/notes/styles/Common/NumberField.css");
-        this.getStylesheets().add("com/notes/styles/Text/ToggleButton.css");
-        this.getStylesheets().add("com/notes/styles/Text/FontPicker.css");
-        this.getStylesheets().add("com/notes/styles/ModeSelector/ModeSelector.css");
-        this.getStylesheets().add("com/notes/styles/Common/Button.css");
-        this.getStylesheets().add("com/notes/styles/Common/Separator.css");
-        this.getStylesheets().add("com/notes/styles/Common/Spacer.css");
-        this.getStylesheets().add("com/notes/styles/Common/ToggleButton.css");
-        this.getStylesheets().add("com/notes/styles/Common/ComboBox.css");
+        this.getStylesheets().add(getResource("/com/notes/styles/Text/TextComponent.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Text/TextComponentBar.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Text/Button.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Common/ColorPicker.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Common/NumberField.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Text/ToggleButton.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Text/FontPicker.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/ModeSelector/ModeSelector.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Common/Button.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Common/Separator.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Common/Spacer.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Common/ToggleButton.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Common/ComboBox.css"));
     }
 
     protected ScrollBar getTextComponentScrollbar(){

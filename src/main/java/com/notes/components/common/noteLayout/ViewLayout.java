@@ -8,6 +8,8 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
 
+import static com.notes.util.Resources.getResource;
+
 public class ViewLayout extends VBox {
 
     protected final ScrollPane scrollRegion;
@@ -42,8 +44,8 @@ public class ViewLayout extends VBox {
 
         scrollRegion.setContent(r);
         this.getChildren().addAll(bar,scrollRegion);
-        this.getStylesheets().add("com/notes/styles/View/ViewLayout.css");
-        this.getStylesheets().add("com/notes/styles/ModeSelector/ModeSelector.css");
-        this.getStylesheets().add("com/notes/styles/Common/ComboBox.css");
+        this.getStylesheets().add(getResource("/com/notes/styles/View/ViewLayout.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/ModeSelector/ModeSelector.css"));
+        this.getStylesheets().add(getResource("/com/notes/styles/Common/ComboBox.css"));
     }
 }

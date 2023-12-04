@@ -15,8 +15,7 @@ public class Main extends Application {
 
 
         stage.initStyle(StageStyle.TRANSPARENT);
-        stage.getIcons().add(new Image("com/notes/icons/icon.png"));
-
+        stage.getIcons().add(new Image(String.valueOf(Main.class.getResource("/com/notes/icons/icon.png"))));
 
         InitialLayout parent = new InitialLayout(stage);
         stage.setWidth(500);
